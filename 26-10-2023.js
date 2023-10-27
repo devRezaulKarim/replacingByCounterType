@@ -1,5 +1,5 @@
 const log = console.log
-//   =>Target: Take an array of random numbers, then replace the odd number by it's emmidiate even number, and vice versa.
+//   =>Target: Take an array of random numbers, then replace the odd number by it's next emmidiate even number, or vice versa.
 
 //  *Condition - 1: Can't duplicate the eliment, if the emmidiate counter type number already exists in the reference array then jump to the next one and so on.
 //  *Condition - 2: Smallest eliment of the reference array must be replaced by the smallest missing counter type number. 
