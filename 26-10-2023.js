@@ -56,7 +56,7 @@ const replaceByCounter = arr => {
         }
     }
 
-    // replacing the odd number and placing the even number
+    // removing the odd number and placing the even number
     for (let i = 0; i < arr.length; i++) {
         if (allEvenNumbers[i] % 2 !== 0) {
             for (let j = 0; j < evenNumbers.length; j++) {
@@ -69,7 +69,7 @@ const replaceByCounter = arr => {
         }
     }
 
-    // replacing the even number and placing the odd number
+    // removing the even number and placing the odd number
     for (let e = 0; e < arr.length; e++) {
         if (allOddNumbers[e] % 2 === 0) {
             for (let f = 0; f < oddNumbers.length; f++) {
